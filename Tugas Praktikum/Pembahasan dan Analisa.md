@@ -16,7 +16,7 @@ main.dart
 
 ---
 
-## Analisa Per Blok
+## Analisa
 
 ### 1. Interface Kemampuan
 
@@ -45,7 +45,7 @@ Class `Hewan` berperan sebagai fondasi bersama seluruh hewan dalam program ini. 
 
 ---
 
-### 3. Class Hewan Konkret
+### 3. Class Hewan
 
 ```dart
 class Singa   extends Hewan implements Berlari, Berenang        { ... }
@@ -59,7 +59,7 @@ Setiap class hewan mewarisi `Hewan` melalui `extends` dan mengimplementasikan in
 
 ---
 
-### 4. Fungsi `main()` — Pemilihan Hewan
+### 4. Fungsi `main()`
 
 ```dart
 List<Hewan> daftarHewan = [Singa(), Elang(), Ikan(), Cheetah(), Katak()];
@@ -69,7 +69,7 @@ Seluruh objek hewan disimpan dalam satu `List<Hewan>`. Penggunaan tipe `Hewan` s
 
 ---
 
-### 5. Logika Seleksi Kemampuan — Inti Program
+### 5. Logika Seleksi Kemampuan
 
 ```dart
 Map<int, Function> daftarKemampuan = {};
