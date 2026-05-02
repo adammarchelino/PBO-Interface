@@ -10,7 +10,7 @@ Program ini merupakan simulasi aplikasi pengenalan karakteristik hewan berbasis 
 main.dart
 ├── Interface Kemampuan     (Berlari, Berenang, Menyelam, Terbang, Memanjat)
 ├── Abstract Class Hewan
-├── Class Hewan Konkret     (Singa, Elang, Ikan, Cheetah, Katak)
+├── Class Hewan             (Singa, Elang, Ikan, Cheetah, Katak)
 └── main()
 ```
 
