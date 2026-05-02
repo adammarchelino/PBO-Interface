@@ -1,6 +1,4 @@
-# Pembahasan dan Analisa — Tugas Praktikum Interface
-
-## Deskripsi Program
+# Deskripsi Program
 
 Program ini merupakan simulasi aplikasi pengenalan karakteristik hewan berbasis teks (CLI) yang dibangun menggunakan bahasa pemrograman Dart. Pengguna dapat memilih seekor hewan dari daftar yang tersedia, kemudian program hanya akan menampilkan kemampuan yang memang dimiliki oleh hewan tersebut. Implementasi ini memanfaatkan konsep **interface**, **abstract class**, dan **operator `is`** sebagai inti dari logika seleksi kemampuan secara dinamis.
 
